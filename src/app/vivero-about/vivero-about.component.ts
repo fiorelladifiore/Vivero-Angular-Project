@@ -10,6 +10,6 @@ import { Component } from '@angular/core';
 export class ViveroAboutComponent {
   imagen=
     {
-      image1: "./public/img/quienesSomos.png"
+      image1: "../public/img/quienesSomos.png"
     }
 }
