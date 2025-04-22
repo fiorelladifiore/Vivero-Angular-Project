@@ -1,0 +1,56 @@
+<div class="allHome">
+  <div class="home1">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img [src]="imagenes.image1" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Envíos a todo el país</h1>
+            <p>Envío gratis en todas las compras mayores a $50.000</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img [src]="imagenes.image2" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Home deco</h1>
+            <p>Todo lo que tus espacios necesitan para transformarse en un hogar</p>
+          </div>
+
+    </div>
+    <div class="carousel-item">
+      <img [src]="imagenes.image3" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Mundo verde</h1>
+        <p>Te ofrecemos una amplia variedad de plantas y macetas</p>
+      </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="home2" style="width:50rem;">
+    <div class="card-body1" [ngStyle]="{'background-image': 'url('+imagenes.image5+')'}">
+      <a href="#" class="boton3 btn btn-primary">Ver más</a>
+    </div>
+  </div>
+  <div class="home3" style="width: 50rem;">
+    <div class="card-body2" [ngStyle]="{'background-image': 'url('+imagenes.image6+')'}">
+      <a href="#" class="boton3 btn btn-primary">Ver más</a>
+    </div>
+  </div>
+</div>
+<div class="home4" style="width: 60rem;">
+  <img [src]="imagenes.image4" class="pagos">
+</div>

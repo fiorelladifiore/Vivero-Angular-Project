@@ -1,0 +1,24 @@
+<body>
+<div class="cart-container">
+  <div class="cart-title">🛒 Carrito de Compras</div>
+  <div class="cart-item">
+    @for(plant of (cartList$ | async); track plant.name){
+      <tr>
+        <td><img [src]="plant.image" [alt]="plant.image" width="70" height="70"></td>
+        <td>{{plant.name}}:</td>
+        <td>{{plant.quantity}} x</td>
+        <td>{{plant.price | currency}}</td>
+      </tr>
+    } @empty {
+      <h3>Todavía no agregaste elementos al carrito...</h3>
+    }
+    </div>
+  </div>
+  <div class="cart-total">Total: {{ getTotal() | async | currency }}</div>
+  <button class="checkout-btn">Finalizar Compra</button>
+</body>
+
+
+
+
+

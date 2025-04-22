@@ -1,0 +1,35 @@
+
+nav {
+  background-color: #4d673a;
+}
+
+.nav-link{
+  color: antiquewhite;
+}
+
+.nav-link, footer, h4{
+  font-family: Muli, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+footer{
+  color: #1c3209;
+  padding: 10px;
+  background-color: #b5fd79;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.marca{
+  align-items: end;
+}
+
+.container{
+  background-color: #ffe5d1;
+  display: contents;
+  max-width: 100%;
+}
+
