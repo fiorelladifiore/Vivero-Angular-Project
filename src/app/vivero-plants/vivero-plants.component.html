@@ -1,8 +1,23 @@
 <div class="row">
-  <div class="col-8">
+  <div class="col-12 col-md-12">
     <app-plants-list></app-plants-list>
   </div>
-  <div class="col-4">
-    <app-plants-cart></app-plants-cart>
+  <div class="col-4 d-none d-md-block col-md-4">
+    <div class="modal fade " id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body">
+    <div class="plantsc">
+    <app-plants-cart class="plantsc"></app-plants-cart>
+  </div>
+  </div>
+
+</div>
+</div>
+</div>
   </div>
 </div>

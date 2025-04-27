@@ -1,16 +1,12 @@
 
-@media (min-width: 1025px) {
-  .h-custom {
-    height: 100vh !important;
-  }
-}
+
 
 
 body {
   width: 90%;
   flex-direction: column;
   font-family: Arial, sans-serif;
-  background-color: antiquewhite;
+background-color: transparent;
   margin: 0;
   padding: 0;
   display: flex;
@@ -20,7 +16,7 @@ body {
 
   flex-direction: column;
   max-width: 800px;
-  background: #fff;
+
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -40,8 +36,9 @@ body {
   font-style: normal;
   align-items: flex-start;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
@@ -99,4 +96,9 @@ body {
 }
 .checkout-btn:hover {
   background: #1b4332;
+}
+
+
+.container, .row{
+  --bs-gutter-x: none;
 }

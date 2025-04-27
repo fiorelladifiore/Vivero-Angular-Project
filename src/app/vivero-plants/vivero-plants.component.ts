@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './vivero-plants.component.scss'
 })
 export class ViveroPlantsComponent {
-
+  
 }
+
