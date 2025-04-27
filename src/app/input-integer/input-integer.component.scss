@@ -1,6 +1,6 @@
 
 input{
-  max-width: 50px;
+  max-width: 80px;
 }
 
 button{
@@ -15,6 +15,10 @@ button{
 
 .input-group{
   flex-wrap: nowrap;
+}
+
+.form-control{
+  width: 40px;
 }
 
 

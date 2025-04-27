@@ -44,6 +44,22 @@ footer{
 }
 
 .cartimg{
-  width: 80px;
+  width: 50px;
   background-color: transparent;
+  align-items: flex-end;
+}
+
+.btn{
+  border: rgb(81, 81, 81) 1px solid;
+}
+
+.buttons{
+  display: flex;
+
+}
+
+.navbar-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }

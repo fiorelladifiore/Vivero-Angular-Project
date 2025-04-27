@@ -2,3 +2,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.modal-body {
+    max-height: 70vh; /* El modal body ocupa máximo el 70% de la altura visible */
+    overflow-y: auto; /* Si se pasa, aparece scroll */
+  }
