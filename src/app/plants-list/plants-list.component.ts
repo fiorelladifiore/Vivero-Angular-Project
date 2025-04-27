@@ -11,7 +11,7 @@ import {PlantDataService} from '../plant-data.service';
   styleUrl: './plants-list.component.scss'
 })
 export class PlantsListComponent implements OnInit{
-
+  loading: boolean = true;
   plants: Plants[] = [];
 
   constructor(
@@ -23,6 +23,7 @@ export class PlantsListComponent implements OnInit{
   ngOnInit() {
     this.plantsDataService.getAll()
       .subscribe(plants => this.plants = plants);
+      this.loadPlants();
   }
 
   addToCart(plant: Plants):void{
@@ -40,6 +41,19 @@ export class PlantsListComponent implements OnInit{
     alert(m);
   }
 
+  loadPlants() {
+    this.loading = true;
+    this.plantsDataService.getAll().subscribe({
+      next: (data) => {
+        this.plants = data;
+        this.loading = false;
+      },
+      error: (err) => {
+        console.error('Error cargando plantas', err);
+        this.loading = false;
+      }
+    });
+  }
 
 
 
