@@ -8,14 +8,14 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img [src]="imagenes.image1" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <img [src]="imagenes.image1" class="d-10 w-100" alt="...">
+          <div class="carousel-caption d-block">
             <h1>Envíos a todo el país</h1>
             <p>Envío gratis en todas las compras mayores a $50.000</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img [src]="imagenes.image2" class="d-block w-100" alt="...">
+          <img [src]="imagenes.image2" class="d-10 w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h1>Home deco</h1>
             <p>Todo lo que tus espacios necesitan para transformarse en un hogar</p>
@@ -23,7 +23,7 @@
 
     </div>
     <div class="carousel-item">
-      <img [src]="imagenes.image3" class="d-block w-100" alt="...">
+      <img [src]="imagenes.image3" class="d-10 w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1>Mundo verde</h1>
         <p>Te ofrecemos una amplia variedad de plantas y macetas</p>
@@ -40,16 +40,33 @@
       </button>
     </div>
   </div>
-  <div class="home2" style="width:50rem;">
-    <div class="card-body1" [ngStyle]="{'background-image': 'url('+imagenes.image5+')'}">
-      <a href="#" class="boton3 btn btn-primary">Ver más</a>
-    </div>
+</div>
+<h1 class="subt"> Novedades y secciones</h1>
+<div class="cards">
+<div class="card" style="width: 25rem;">
+  <img [src]="imagenes.image5" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Decoración</h5>
+    <p class="card-text">Ideas de ambientes para que lo verde destaque</p>
+    <a href="#" class="btn btn-success">Ver más</a>
   </div>
-  <div class="home3" style="width: 50rem;">
-    <div class="card-body2" [ngStyle]="{'background-image': 'url('+imagenes.image6+')'}">
-      <a href="#" class="boton3 btn btn-primary">Ver más</a>
-    </div>
+</div>
+<div class="card" style="width: 25rem;">
+  <img [src]="imagenes.image6" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Consejos y cuidados</h5>
+    <p class="card-text">Una guía para mantener tus plantas en buenas condiciones</p>
+    <a href="#" class="btn btn-success">Ver más</a>
   </div>
+</div>
+<div class="card" style="width: 25rem;">
+  <img [src]="imagenes.image7" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Vivero staff</h5>
+    <p class="card-text">¡Conoce nuestro personal!</p>
+    <a href="#" class="btn btn-success">Ver más</a>
+  </div>
+</div>
 </div>
 <div class="home4" style="width: 60rem;">
   <img [src]="imagenes.image4" class="pagos">

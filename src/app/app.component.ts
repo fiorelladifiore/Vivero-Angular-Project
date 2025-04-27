@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'VIVERO';
-  email= 'difiore8fiore@gmail.com';
-  tel= '+54 226238148';
+  email= 'vivero@gmail.com';
+  tel= '+54 1156256987';
 }
