@@ -16,16 +16,14 @@ nav {
 footer{
   color: #1c3209;
   padding: 10px;
-  background-color: #b5fd79;
+  background-color: #beee97;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
 }
 
-.marca{
-  align-items: end;
-}
+
 
 .container{
   background-color: #ffe5d1;
@@ -33,3 +31,14 @@ footer{
   max-width: 100%;
 }
 
+.foot1, .foot2{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.marca{
+  
+  padding: 8px;
+}
