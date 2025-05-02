@@ -9,17 +9,17 @@ nav {
 
 .nav-link, footer, h4{
   font-family: Muli, sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 2px;
 }
 
 footer{
   color: #1c3209;
-  padding: 10px;
+  padding: 5px;
   background-color: #beee97;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -32,16 +32,12 @@ footer{
 }
 
 .foot1, .foot2{
-  padding: 10px;
+  padding: 1px;
   display: flex;
   flex-direction: column;
 }
 
 
-.marca{
-  
-  padding: 8px;
-}
 
 .cartimg{
   width: 50px;
