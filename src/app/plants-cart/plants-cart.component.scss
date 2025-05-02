@@ -35,9 +35,9 @@ body {
   font-style: normal;
   align-items: flex-start;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
